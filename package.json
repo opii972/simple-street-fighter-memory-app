@@ -1,0 +1,22 @@
+{
+  "name": "simple-street-fighter-memory-app",
+  "version": "1.0.0",
+  "description": "A simple Street Fighter memory game in Vanilla JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opii972/simple-street-fighter-memory-app.git"
+  },
+  "keywords": [
+    "memory"
+  ],
+  "author": "Cedric Lisima",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/opii972/simple-street-fighter-memory-app/issues"
+  },
+  "homepage": "https://github.com/opii972/simple-street-fighter-memory-app#readme"
+}
