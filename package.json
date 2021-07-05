@@ -2,8 +2,12 @@
   "name": "simple-street-fighter-memory-app",
   "version": "1.0.0",
   "description": "A simple Street Fighter memory game in Vanilla JavaScript",
-  "main": "index.js",
   "scripts": {
+    "start": "parcel src/index.html",
+    "prebuild": "rimraf dist",
+    "build": "parcel build --public-url '.' src/index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,12 +15,21 @@
     "url": "git+https://github.com/opii972/simple-street-fighter-memory-app.git"
   },
   "keywords": [
-    "memory"
+    "memory",
+    "javascript",
+    "parcel"
   ],
   "author": "Cedric Lisima",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/opii972/simple-street-fighter-memory-app/issues"
   },
-  "homepage": "https://github.com/opii972/simple-street-fighter-memory-app#readme"
+  "homepage": "https://github.com/opii972/simple-street-fighter-memory-app",
+  "devDependencies": {
+    "parcel": "~2.0.0-nightly.750",
+    "rimraf": "~3.0.2"
+  },
+  "dependencies": {
+    "gh-pages": "~3.2.3"
+  }
 }

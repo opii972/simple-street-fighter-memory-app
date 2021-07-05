@@ -1,8 +1,39 @@
-#container {
+.scene {
   display: grid;
   grid-template-columns: repeat(4, 60px);
   grid-template-rows: repeat(4, 60px);
   grid-gap: 15px;
+}
+
+.card--0 {
+  background: url('./assets/images/ryu.jpg');
+}
+
+.card--1 {
+  background: url('./assets/images/ken.jpg');
+}
+
+.card--2 {
+  background: url('./assets/images/chun-li.jpg');
+}
+
+.card--3 {
+  background: url('./assets/images/honda.jpg');
+}
+
+.card--4 {
+  background: url('./assets/images/balrog.jpg');
+}
+
+.card--5 {
+  background: url('./assets/images/sagat.jpg');
+}
+
+.card--6 {
+  background: url('./assets/images/vega.jpg');
+}
+.card--7 {
+  background: url('./assets/images/bison.jpg');
 }
 
 .card {
